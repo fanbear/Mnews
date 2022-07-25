@@ -1,0 +1,94 @@
+@import 'settings.css';
+
+
+/* Header style **********************
+***************************************/
+header {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--main-text-color);
+    font-size: var(--standart-text-size);
+
+}
+
+.header-active {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-language {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-language a {
+    font-size: 16px;
+    color: var(--main-text-color);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-language .header-language__active {
+    font-size: 20px;
+    color: #4285f4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.header-menu__button span {
+    width: 12px;
+    height: 12px;
+    background: #4285f4;
+    border-radius: 6px;
+    margin: 2px 0;
+}
+
+.header-menu__list {
+    display: none;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    background: black;
+    padding: 12px 15px 19px 29px;
+    width: 146px;
+    ;
+    z-index: 9999;
+}
+
+.header-menu__list ul {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu__list-active {
+    display: block;
+}
+
+/* ******************************
+********************************* */

@@ -1,0 +1,16 @@
+@import 'settings.css';
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-mail {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: var(--main-text-color);
+    font-size: var(--main-text-size);
+}

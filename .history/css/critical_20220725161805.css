@@ -1,0 +1,34 @@
+@import 'settings.css';
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--main-text-color);
+    font-size: var(--standart-text-size);
+
+}
+
+.header-active {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-language {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-language__active {
+    font-size: 20px;
+    color: #4285f4;
+}

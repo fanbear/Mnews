@@ -1,0 +1,26 @@
+@keyframes menu-animation {
+    0% {
+
+        transform: scale(0);
+    }
+
+    100% {
+
+        transform: scale(1);
+
+    }
+}
+
+@keyframes menu-close {
+    0% {
+
+        transform: scale(0);
+    }
+
+    100% {
+
+        transform: scale(1);
+    }
+}
+
+.menu-animation-open
