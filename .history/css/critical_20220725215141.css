@@ -185,8 +185,8 @@ header {
 
 @keyframes list-close {
     0% {
-        top: 90px;
-        right: 0px;
+        top: -400px;
+        right: -300px;
         transform: scale(1);
         opacity: 1;
     }
@@ -199,8 +199,8 @@ header {
     }
 
     100% {
-        top: -400px;
-        right: -300px;
+        top: 90px;
+        right: 0;
         transform: scale(0);
         opacity: 0;
     }
