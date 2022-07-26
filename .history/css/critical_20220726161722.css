@@ -5,28 +5,8 @@
     max-width: 1170px;
 }
 
-.container-fluid {
-    padding: 0;
-}
-
 a {
     text-decoration: none;
-    padding: 0;
-    margin: 0;
-}
-
-p {
-    padding: 0;
-    margin: 0;
-}
-
-ul {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    font-family: "ProximaNova";
 }
 
 /* Header style **********************
@@ -305,44 +285,8 @@ header {
 .main-agency__network a i {
     font-size: 30px;
     color: var(--main-text-color);
-    transition: 0.4s;
 }
 
-.main-agency__network a:nth-child(3) i {
+.main-agency__network a i:nth-child(4n) {
     color: white;
-}
-
-.main-agency__network a i:hover {
-    font-size: 40px;
-    transition: 0.4s;
-}
-
-
-@font-face {
-    font-family: "ProximaNova";
-    src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 400;
-}
-
-
-@font-face {
-    font-family: "ProximaNova";
-    src: url("../fonts/ProximaNova-Bold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "ProximaNova";
-    src: url("../fonts/ProximaNova-Semibold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "ProximaNova";
-    src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 200;
 }

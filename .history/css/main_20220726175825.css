@@ -62,7 +62,7 @@ img {
     text-align: center;
     margin-top: 15px;
     font-size: var(--minimal-text-size);
-    font-weight: 500;
+    font-weight: bold;
     color: var(--main-text-color);
 }
 

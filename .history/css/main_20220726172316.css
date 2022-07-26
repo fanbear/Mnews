@@ -62,19 +62,18 @@ img {
     text-align: center;
     margin-top: 15px;
     font-size: var(--minimal-text-size);
-    font-weight: 500;
+    font-weight: bold;
     color: var(--main-text-color);
 }
 
 .who-elements__item {
     position: relative;
-    padding: 30px 0;
 }
 
 .who-elements__item p {
     font-size: var(--medium-text-size);
     color: var(--main-text-color);
-    font-weight: 600;
+    font-weight: bold;
     position: absolute;
     bottom: 100px;
     left: 70px;
@@ -83,13 +82,4 @@ img {
 .who-elements__item span {
     font-size: var(--standart-text-size);
     color: var(--main-text-color);
-    position: absolute;
-    font-weight: 500;
-    bottom: 60px;
-    left: 70px;
-}
-
-.who-elements__items .item-white p,
-.who-elements__items .item-white span {
-    color: white;
 }

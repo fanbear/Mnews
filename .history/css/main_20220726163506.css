@@ -1,0 +1,18 @@
+/* .main {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* Who main page *********************************
+************************************************** */
+.who {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.who-text {
+    margin: 12px 0 108px 0;
+    width: 80%;
+    font-size: 41px;
+}

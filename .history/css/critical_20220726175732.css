@@ -322,9 +322,22 @@ header {
     font-family: "ProximaNova";
     src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
 }
 
+@font-face {
+    font-family: "ProximaNova-Black";
+    src: url("../fonts/ProximaNova-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ProximaNova-BlackIt";
+    src: url("../fonts/ProximaNova-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
 
 @font-face {
     font-family: "ProximaNova";
