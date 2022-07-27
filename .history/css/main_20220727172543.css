@@ -337,65 +337,15 @@ img {
 }
 
 
-.portfolio-wrapper {
-    margin-top: 43px;
-    position: relative;
-}
-
 .portfolio-text {
-    content: 'PORTFOLIO';
-    display: block;
-    font-size: 62.5px;
-    font-weight: 800;
-    font-family: "ProximaNova";
-    mix-blend-mode: multiply;
-    background: transparent;
-    color: #FFF;
-    text-transform: uppercase;
-    -moz-transform: matrix(0, -5.11976752045753, 5.11976752045753, 0, 0, 0);
-    -webkit-transform: matrix(0, -5.11976752045753, 5.11976752045753, 0, 0, 0);
-    -ms-transform: matrix(0, -5.11976752045753, 5.11976752045753, 0, 0, 0);
     position: absolute;
-    left: -300px;
-    bottom: -170px;
     z-index: -1;
-    text-shadow:
-        -0 -0.2px 0 var(--main-text-color),
-        0 -0.2px 0 var(--main-text-color),
-        -0 0.2px 0 var(--main-text-color),
-        0 0.2px 0 var(--main-text-color),
-        -0.2px -0 0 var(--main-text-color),
-        0.2px -0 0 var(--main-text-color),
-        -0.2px 0 0 var(--main-text-color),
-        0.2px 0 0 var(--main-text-color),
-        -0.2px -0.2px 0 var(--main-text-color),
-        0.2px -0.2px 0 var(--main-text-color),
-        -0.2px 0.2px 0 var(--main-text-color),
-        0.2px 0.2px 0 var(--main-text-color),
-        -0.2px -0.2px 0 var(--main-text-color),
-        0.2px -0.2px 0 var(--main-text-color),
-        -0.2px 0.2px 0 var(--main-text-color),
-        0.2px 0.2px 0 var(--main-text-color);
-
+    display: flex;
+    justify-content: center;
 }
-
-.portfolio {}
-
 
 .portfolio-title {
     font-size: var(--big-text-size);
     color: var(--main-text-color);
     font-weight: 800;
-}
-
-.portfolio-wrapper__desc {
-    background: white;
-    padding: 24px;
-    border-radius: 30px;
-}
-
-.portfolio-wrapper__desc p {
-    font-size: 25px;
-    color: var(--main-text-color);
-    font-weight: 500;
 }

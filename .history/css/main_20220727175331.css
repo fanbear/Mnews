@@ -348,35 +348,17 @@ img {
     font-size: 62.5px;
     font-weight: 800;
     font-family: "ProximaNova";
-    mix-blend-mode: multiply;
-    background: transparent;
-    color: #FFF;
+    color: transparent;
     text-transform: uppercase;
     -moz-transform: matrix(0, -5.11976752045753, 5.11976752045753, 0, 0, 0);
     -webkit-transform: matrix(0, -5.11976752045753, 5.11976752045753, 0, 0, 0);
     -ms-transform: matrix(0, -5.11976752045753, 5.11976752045753, 0, 0, 0);
     position: absolute;
-    left: -300px;
-    bottom: -170px;
     z-index: -1;
-    text-shadow:
-        -0 -0.2px 0 var(--main-text-color),
-        0 -0.2px 0 var(--main-text-color),
-        -0 0.2px 0 var(--main-text-color),
-        0 0.2px 0 var(--main-text-color),
-        -0.2px -0 0 var(--main-text-color),
-        0.2px -0 0 var(--main-text-color),
-        -0.2px 0 0 var(--main-text-color),
-        0.2px 0 0 var(--main-text-color),
-        -0.2px -0.2px 0 var(--main-text-color),
-        0.2px -0.2px 0 var(--main-text-color),
-        -0.2px 0.2px 0 var(--main-text-color),
-        0.2px 0.2px 0 var(--main-text-color),
-        -0.2px -0.2px 0 var(--main-text-color),
-        0.2px -0.2px 0 var(--main-text-color),
-        -0.2px 0.2px 0 var(--main-text-color),
-        0.2px 0.2px 0 var(--main-text-color);
-
+    text-shadow: 1px 0 1px #000,
+        0 1px 1px #000,
+        -1px 0 1px #000,
+        0 -1px 1px #000;
 }
 
 .portfolio {}

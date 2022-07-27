@@ -357,7 +357,7 @@ img {
     -ms-transform: matrix(0, -5.11976752045753, 5.11976752045753, 0, 0, 0);
     position: absolute;
     left: -300px;
-    bottom: -170px;
+    top: -20px;
     z-index: -1;
     text-shadow:
         -0 -0.2px 0 var(--main-text-color),
