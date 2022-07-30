@@ -334,7 +334,6 @@ img {
     width: 100%;
     display: flex;
     justify-content: center;
-    top: 60px;
 }
 
 
@@ -415,12 +414,10 @@ img {
 }
 
 .portfolio-wrapper__item-title {
-    font-size: 35px;
+    font-size: 37px;
     margin-top: 20px;
     color: var(--main-text-color);
     font-weight: 700;
-    word-break: break-all;
-
 }
 
 .portfolio-wrapper__item-desk {
@@ -438,14 +435,8 @@ img {
     color: var(--main-text-color);
     font-size: 25px;
     font-weight: 700;
-    transition: 0.4s;
-}
-
-.portfolio-wrapper__item-link a:hover {
-    color: var(--color-blue);
-    transition: 0.4s;
 }
 
 .item-top {
-    margin-top: 26px;
+    margin-top: 15px;
 }

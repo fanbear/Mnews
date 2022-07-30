@@ -420,7 +420,9 @@ img {
     color: var(--main-text-color);
     font-weight: 700;
     word-break: break-all;
-
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }
 
 .portfolio-wrapper__item-desk {

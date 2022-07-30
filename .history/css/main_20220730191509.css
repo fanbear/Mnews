@@ -428,6 +428,9 @@ img {
     font-size: 25px;
     font-weight: 400;
     color: var(--main-text-color);
+    -O-moz-hyphens: auto;
+    -O-webkit-hyphens: auto;
+    -O-ms-hyphens: auto;
 }
 
 .portfolio-wrapper__item-link {

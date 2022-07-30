@@ -415,12 +415,10 @@ img {
 }
 
 .portfolio-wrapper__item-title {
-    font-size: 35px;
+    font-size: 37px;
     margin-top: 20px;
     color: var(--main-text-color);
     font-weight: 700;
-    word-break: break-all;
-
 }
 
 .portfolio-wrapper__item-desk {
