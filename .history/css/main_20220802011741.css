@@ -707,7 +707,6 @@ img {
     right: calc(0%);
     background-color: white;
     z-index: -1;
-    animation: agency-color 8s infinite;
 }
 
 .agency-wrapper__img-text {

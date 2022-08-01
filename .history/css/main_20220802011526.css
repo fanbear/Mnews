@@ -707,37 +707,21 @@ img {
     right: calc(0%);
     background-color: white;
     z-index: -1;
-    animation: agency-color 8s infinite;
 }
 
 .agency-wrapper__img-text {
     position: absolute;
     bottom: 115px;
-    left: 115px;
+    left: 25px;
     color: white;
 }
 
 .agency-wrapper__title {
-    font-size: var(--standart-text-size);
+    font-size: 33px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .agency-wrapper-desc {
-    font-size: 28px;
-    font-weight: 300;
-}
-
-@keyframes agency-color {
-    0% {
-        background-color: white;
-    }
-
-    50% {
-        background-color: var(--color-darkgrey);
-    }
-
-    100% {
-        background-color: white;
-    }
+    font-size: 25px;
 }

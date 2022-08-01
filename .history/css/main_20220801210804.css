@@ -485,7 +485,7 @@ img {
 
 .why {
     margin-top: 143px;
-    margin-bottom: 147px;
+    margin-bottom: 53px;
 }
 
 .why-item {
@@ -518,7 +518,7 @@ img {
 
 .why-item::before {
 
-    font-size: 200px;
+    font-size: 225px;
     color: #e1e1e1;
     display: block;
     position: absolute;
@@ -530,38 +530,30 @@ img {
 
 .why-item:nth-child(1)::before {
     content: "01";
-    animation: why-animate 6s infinite;
-    animation-delay: 2s;
+    animation: why-animate 8s infinite;
+    animation-delay: 6;
 }
 
 .why-item:nth-child(2)::before {
     content: "02";
-    animation: why-animate 6s infinite;
-    animation-delay: 3s;
+    animation: why-animate 8s infinite;
+    animation-delay: 2;
 }
 
 .why-item:nth-child(3)::before {
     content: "03";
-    animation: why-animate 6s infinite;
-    animation-delay: 4s;
 }
 
 .why-item:nth-child(4)::before {
     content: "04";
-    animation: why-animate 6s infinite;
-    animation-delay: 4s;
 }
 
 .why-item:nth-child(5)::before {
     content: "05";
-    animation: why-animate 6s infinite;
-    animation-delay: 5s;
 }
 
 .why-item:nth-child(6)::before {
     content: "06";
-    animation: why-animate 6s infinite;
-    animation-delay: 6s;
 }
 
 @keyframes why-animate {
@@ -575,169 +567,5 @@ img {
 
     100% {
         color: #e1e1e1;
-    }
-}
-
-/* Brif link *******************************
-******************************************* */
-.brif-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 23px 20px 67px;
-    background-color: var(--color-darkgrey);
-    border-radius: 55px;
-}
-
-.brif-title {
-    color: white;
-    font-size: var(--minimal-text-size);
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 54px;
-    letter-spacing: 2px;
-}
-
-.brif-button {
-    background-color: var(--color-blue);
-    padding: 18px 57px;
-    border-radius: 34px;
-}
-
-.brif-button a {
-    font-size: var(--standart-text-size);
-    text-transform: uppercase;
-    color: white;
-    font-weight: 600;
-    transition: 0.4s;
-}
-
-.brif-button a:hover {
-    color: var(--main-text-color);
-    transition: 0.4s;
-}
-
-/* We are trusted main *****************************
-*************************************************** */
-.trusted {
-    margin-top: 247px;
-}
-
-.trusted-title {
-    font-size: var(--big-text-size);
-    font-weight: 800;
-    line-height: 54px;
-    margin-bottom: 38px;
-}
-
-.trusted-item {
-    height: 166px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 31px;
-}
-
-.trusted-more {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.trusted-more a {
-    background-color: var(--color-blue);
-    color: white;
-    font-size: 36px;
-    text-transform: uppercase;
-    font-weight: 600;
-    text-align: center;
-    padding: 18px 40px;
-    border-radius: 32px;
-    line-height: 36px;
-    transition: 0.4s;
-}
-
-.trusted-more a:hover {
-    background-color: var(--color-darkgrey);
-    transition: 0.4s;
-}
-
-/* About agency ********************
-************************************ */
-
-.agency {
-    margin-top: 197px;
-}
-
-.agency-title {
-    color: var(--main-text-color);
-    font-size: var(--big-text-size);
-    font-weight: 800;
-    line-height: 79px;
-}
-
-.agency-wrapper {
-    background-color: var(--color-darkgrey);
-    margin-top: 36px;
-    padding: 30px 0;
-    position: relative;
-}
-
-.agency-wrapper__text p {
-    color: white;
-    font-size: 24px;
-    font-weight: 500;
-    margin: 14px 0;
-}
-
-.agency-wrapper__img {
-    position: absolute;
-    top: -85px;
-    right: 0;
-    z-index: 2;
-}
-
-.agency-wrapper__img::after {
-    content: "";
-    display: block;
-    width: 650px;
-    height: 650px;
-    position: absolute;
-    top: calc(25%);
-    right: calc(0%);
-    background-color: white;
-    z-index: -1;
-    animation: agency-color 8s infinite;
-}
-
-.agency-wrapper__img-text {
-    position: absolute;
-    bottom: 115px;
-    left: 115px;
-    color: white;
-}
-
-.agency-wrapper__title {
-    font-size: var(--standart-text-size);
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.agency-wrapper-desc {
-    font-size: 28px;
-    font-weight: 300;
-}
-
-@keyframes agency-color {
-    0% {
-        background-color: white;
-    }
-
-    50% {
-        background-color: var(--color-darkgrey);
-    }
-
-    100% {
-        background-color: white;
     }
 }
