@@ -377,7 +377,6 @@ img {
         0.2px -0.2px 0 var(--main-text-color),
         -0.2px 0.2px 0 var(--main-text-color),
         0.2px 0.2px 0 var(--main-text-color);
-    animation: portfolio-animate 15s ease-in infinite;
 }
 
 .portfolio-title {
@@ -474,69 +473,6 @@ img {
 .portfolio-wrapper__more a:hover {
     background: var(--color-blue);
     transition: 0.4s;
-}
-
-@keyframes portfolio-animate {
-    0% {
-        text-shadow:
-            -0 -0.2px 0 var(--main-text-color),
-            0 -0.2px 0 var(--main-text-color),
-            -0 0.2px 0 var(--main-text-color),
-            0 0.2px 0 var(--main-text-color),
-            -0.2px -0 0 var(--main-text-color),
-            0.2px -0 0 var(--main-text-color),
-            -0.2px 0 0 var(--main-text-color),
-            0.2px 0 0 var(--main-text-color),
-            -0.2px -0.2px 0 var(--main-text-color),
-            0.2px -0.2px 0 var(--main-text-color),
-            -0.2px 0.2px 0 var(--main-text-color),
-            0.2px 0.2px 0 var(--main-text-color),
-            -0.2px -0.2px 0 var(--main-text-color),
-            0.2px -0.2px 0 var(--main-text-color),
-            -0.2px 0.2px 0 var(--main-text-color),
-            0.2px 0.2px 0 var(--main-text-color);
-    }
-
-    50% {
-        color: var(--color-blue);
-        text-shadow:
-            -0 -0.2px 0 white,
-            0 -0.2px 0 white,
-            -0 0.2px 0 white,
-            0 0.2px 0 white,
-            -0.2px -0 0 white,
-            0.2px -0 0 white,
-            -0.2px 0 0 white,
-            0.2px 0 0 white,
-            -0.2px -0.2px 0 white,
-            0.2px -0.2px 0 white,
-            -0.2px 0.2px 0 white,
-            0.2px 0.2px 0 white,
-            -0.2px -0.2px 0 white,
-            0.2px -0.2px 0 white,
-            -0.2px 0.2px 0 white,
-            0.2px 0.2px 0 white;
-    }
-
-    100% {
-        text-shadow:
-            -0 -0.2px 0 var(--main-text-color),
-            0 -0.2px 0 var(--main-text-color),
-            -0 0.2px 0 var(--main-text-color),
-            0 0.2px 0 var(--main-text-color),
-            -0.2px -0 0 var(--main-text-color),
-            0.2px -0 0 var(--main-text-color),
-            -0.2px 0 0 var(--main-text-color),
-            0.2px 0 0 var(--main-text-color),
-            -0.2px -0.2px 0 var(--main-text-color),
-            0.2px -0.2px 0 var(--main-text-color),
-            -0.2px 0.2px 0 var(--main-text-color),
-            0.2px 0.2px 0 var(--main-text-color),
-            -0.2px -0.2px 0 var(--main-text-color),
-            0.2px -0.2px 0 var(--main-text-color),
-            -0.2px 0.2px 0 var(--main-text-color),
-            0.2px 0.2px 0 var(--main-text-color);
-    }
 }
 
 

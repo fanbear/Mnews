@@ -377,7 +377,7 @@ img {
         0.2px -0.2px 0 var(--main-text-color),
         -0.2px 0.2px 0 var(--main-text-color),
         0.2px 0.2px 0 var(--main-text-color);
-    animation: portfolio-animate 15s ease-in infinite;
+    animation: portfolio-animate 10s ease-in infinite;
 }
 
 .portfolio-title {
@@ -498,24 +498,7 @@ img {
     }
 
     50% {
-        color: var(--color-blue);
-        text-shadow:
-            -0 -0.2px 0 white,
-            0 -0.2px 0 white,
-            -0 0.2px 0 white,
-            0 0.2px 0 white,
-            -0.2px -0 0 white,
-            0.2px -0 0 white,
-            -0.2px 0 0 white,
-            0.2px 0 0 white,
-            -0.2px -0.2px 0 white,
-            0.2px -0.2px 0 white,
-            -0.2px 0.2px 0 white,
-            0.2px 0.2px 0 white,
-            -0.2px -0.2px 0 white,
-            0.2px -0.2px 0 white,
-            -0.2px 0.2px 0 white,
-            0.2px 0.2px 0 white;
+        color: var(--color-blue)
     }
 
     100% {
