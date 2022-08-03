@@ -1255,7 +1255,6 @@ img {
 
 .blog-tab {
     margin-top: 95px;
-    margin-bottom: 95px;
 }
 
 .blog-tab .tab__item {
@@ -1307,8 +1306,4 @@ img {
 
 .blog-tab .item-body__title {
     font-weight: 800;
-}
-
-.telegram {
-    margin-top: 187px;
 }

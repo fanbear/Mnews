@@ -35,7 +35,13 @@ const tabWrapper = document.querySelectorAll('.tab__wrapper');
 if (tabWrapper) {
     tabWrapper.forEach((item) => {
         item.addEventListener('click', (e) => {
-            e.target.closest('.tab__item').classList.toggle('tab__item-active');
+
+            if (e.target.closest('.tab__item').classList.contains('.tab__item-active')) {
+                e.target.closest('.tab__item').classList.toggle('tab__item-active');
+                e.target.closest('.tab__item').classList.toggle('tab__item-deactive');
+            } else {
+                e.target.closest('.tab__item').classList.toggle('tab__item-active');
+            }
         })
     })
 

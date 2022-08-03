@@ -38,10 +38,9 @@ $('.slider-reviews').slick({
 $('.slider-blog').slick({
     dots: false,
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     variableWidth: true,
-    centerMode: true,
     prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
     nextArrow: "<button type='button' class='slick-next pull-left'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
     responsive: [
