@@ -1488,7 +1488,7 @@ img {
 .about-us__desc h1 {
     font-size: var(--standart-text-size);
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .about-us__desc p,

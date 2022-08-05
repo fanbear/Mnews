@@ -28,7 +28,6 @@ p {
 ul {
     padding: 0;
     margin: 0;
-    list-style: none;
 }
 
 body {
@@ -392,7 +391,7 @@ header {
     color: transparent;
     -webkit-text-stroke: 1px white;
     display: block;
-    font-size: 18.5vw;
+    font-size: 19vw;
     font-weight: 800;
     font-family: "ProximaNova";
     text-transform: uppercase;

@@ -1488,11 +1488,10 @@ img {
 .about-us__desc h1 {
     font-size: var(--standart-text-size);
     font-weight: 500;
-    margin-bottom: 30px;
 }
 
 .about-us__desc p,
 .about-us__desc ul {
     font-size: 25px;
-    margin: 10px 0;
+    margin: 5px 0;
 }

@@ -1,6 +1,6 @@
 @import 'settings.css';
 
-html, body {
+html {
     overflow-x: hidden;
 }
 
@@ -28,7 +28,6 @@ p {
 ul {
     padding: 0;
     margin: 0;
-    list-style: none;
 }
 
 body {
@@ -152,7 +151,7 @@ header {
 
 .header-menu__list ul li a {
     text-decoration: none;
-    black-space: nowrap;
+    white-space: nowrap;
     color: white;
     font-size: 16px;
     line-height: 12.5px;
@@ -333,34 +332,32 @@ header {
 .about-us {
     margin-top: 160px;
     background-color: var(--color-blue);
-    position: relative;
 
 }
 
 .about-us__wrapper {
     position: relative;
     padding-top: 130px;
-    padding-bottom: 305px;
+    padding-bottom: 290px;
 }
 
 .about-us__circle {
     position: absolute;
-    left: 100px;
+    left: 120px;
     top: -190px;
     z-index: 1;
 }
 
 .about-us__director {
     position: absolute;
-    left: 15px;
+    left: 0;
     z-index: 3;
-    top: -149px;
+    top: -150px;
 }
 
 .about-us__title {
     position: relative;
     z-index: 4;
-    margin-left: -15px;
 }
 
 .about-us__title p {
@@ -374,30 +371,6 @@ header {
     color: white;
     font-size: 25px;
     font-weight: 500;
-}
-
-.about-us__overtext {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: 2;
-    overflow: hidden;
-    width: 100%;
-    height: 17.5vw;
-    display: flex;
-    justify-content: center;
-}
-
-.about-us__overtext span {
-    color: transparent;
-    -webkit-text-stroke: 1px white;
-    display: block;
-    font-size: 18.5vw;
-    font-weight: 800;
-    font-family: "ProximaNova";
-    text-transform: uppercase;
-    white-space: nowrap;
-
 }
 
 /* FONTS ******************************

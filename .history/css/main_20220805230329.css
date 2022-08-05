@@ -364,7 +364,7 @@ img {
     top: 47%;
     z-index: -1;
     text-shadow:
-        -0 -0.2px 0 var(--main-text-color),
+        -0 -0.2px 0 #fff,
         0 -0.2px 0 var(--main-text-color),
         -0 0.2px 0 var(--main-text-color),
         0 0.2px 0 var(--main-text-color),
@@ -1475,24 +1475,4 @@ img {
 
 .footer-copyright a {
     color: var(--color-blue);
-}
-
-
-/* About us page ***************************
-*******************************************
-******************************************** */
-.about-us__desc {
-    margin-top: 48px;
-}
-
-.about-us__desc h1 {
-    font-size: var(--standart-text-size);
-    font-weight: 500;
-    margin-bottom: 30px;
-}
-
-.about-us__desc p,
-.about-us__desc ul {
-    font-size: 25px;
-    margin: 10px 0;
 }
