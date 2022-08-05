@@ -1343,9 +1343,6 @@ img {
 ************************************************/
 .footer {
     margin-top: 285px;
-}
-
-.footer-wrapper {
     background: black;
 }
 
@@ -1364,20 +1361,12 @@ img {
     font-size: 45px;
     font-weight: 600;
     color: white;
-    transition: 0.4s;
 }
 
 .footer-contact__mail a {
     color: white;
     font-size: 37px;
     font-weight: 600;
-    transition: 0.4s;
-}
-
-.footer-contact__phone a:hover,
-.footer-contact__mail a:hover {
-    color: var(--color-blue);
-    transition: 0.4s;
 }
 
 .footer-contact__adress {
@@ -1395,7 +1384,7 @@ img {
 
 .footer-contact__social a {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     background: white;
     width: 40px;
     height: 40px;
@@ -1404,25 +1393,12 @@ img {
     justify-content: center;
     align-items: center;
     margin: 0 4px;
-    transition: 0.4s;
-}
-
-.footer-contact__social a:hover {
-    color: var(--color-blue);
-    transition: 0.4s;
 }
 
 .fotter-bottom {
     margin-top: 57px;
-    padding: 60px 0;
+    padding-top: 54px;
     border-top: 3px solid var(--color-blue);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.fotter-bottom img {
-    margin: 0 30px;
 }
 
 .footer-promo {
@@ -1436,44 +1412,9 @@ img {
 .footer-promo__raiting {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.footer-promo__raiting img:nth-child(2) {
-    margin-left: 6px;
-}
-
-.footer-copyright {
-    background-color: white;
-    font-size: 17px;
-    font-weight: 500;
-    text-align: center;
-    padding-bottom: 110px;
-}
-
-.footer-logo {
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
-}
-
-.footer-text {
-    margin-top: 66px;
-}
-
-.footer-text-2 {
-    margin-top: 40px;
-}
-
-.fotter-edr {
-    text-transform: uppercase;
-    margin-top: 50px;
-}
-
-.footer-place {
-    margin-top: 30px;
-}
-
-.footer-copyright a {
-    color: var(--color-blue);
+.footer-promo__raiting img {
+    margin: 0 4px;
+    height: 68px;
 }

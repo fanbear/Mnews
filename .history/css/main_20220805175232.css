@@ -1364,20 +1364,12 @@ img {
     font-size: 45px;
     font-weight: 600;
     color: white;
-    transition: 0.4s;
 }
 
 .footer-contact__mail a {
     color: white;
     font-size: 37px;
     font-weight: 600;
-    transition: 0.4s;
-}
-
-.footer-contact__phone a:hover,
-.footer-contact__mail a:hover {
-    color: var(--color-blue);
-    transition: 0.4s;
 }
 
 .footer-contact__adress {
@@ -1472,8 +1464,4 @@ img {
 
 .footer-place {
     margin-top: 30px;
-}
-
-.footer-copyright a {
-    color: var(--color-blue);
 }
