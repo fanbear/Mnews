@@ -1004,7 +1004,7 @@ img {
     bottom: 0;
     left: 0;
     background: rgb(0, 0, 0, 0.2);
-    width: calc(79.5% - 1170px);
+    width: calc(80% - 1170px);
     z-index: 1;
 }
 
@@ -1014,7 +1014,7 @@ img {
     bottom: 0;
     right: 0;
     background: rgb(0, 0, 0, 0.2);
-    width: calc(79.5% - 1170px);
+    width: calc(80% - 1170px);
     z-index: 1;
 }
 

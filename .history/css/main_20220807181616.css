@@ -1004,7 +1004,7 @@ img {
     bottom: 0;
     left: 0;
     background: rgb(0, 0, 0, 0.2);
-    width: calc(79.5% - 1170px);
+    width: calc(80% - 1170px);
     z-index: 1;
 }
 
@@ -1014,7 +1014,7 @@ img {
     bottom: 0;
     right: 0;
     background: rgb(0, 0, 0, 0.2);
-    width: calc(79.5% - 1170px);
+    width: calc(80% - 1170px);
     z-index: 1;
 }
 
@@ -1039,7 +1039,7 @@ img {
 .slick-next {
     position: absolute;
     top: -105px;
-    right: calc(81% - 1170px);
+    right: calc(80% - 1170px);
     background: var(--color-blue);
     width: 68px;
     height: 68px;

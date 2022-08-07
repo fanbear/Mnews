@@ -1004,7 +1004,7 @@ img {
     bottom: 0;
     left: 0;
     background: rgb(0, 0, 0, 0.2);
-    width: calc(79.5% - 1170px);
+    width: calc(77% - 1170px);
     z-index: 1;
 }
 
@@ -1014,14 +1014,14 @@ img {
     bottom: 0;
     right: 0;
     background: rgb(0, 0, 0, 0.2);
-    width: calc(79.5% - 1170px);
+    width: calc(77% - 1170px);
     z-index: 1;
 }
 
 .slick-prev {
     position: absolute;
     top: -105px;
-    right: calc(86% - 1170px);
+    right: calc(83% - 1170px);
     background: var(--color-blue);
     width: 68px;
     height: 68px;
@@ -1039,7 +1039,7 @@ img {
 .slick-next {
     position: absolute;
     top: -105px;
-    right: calc(81% - 1170px);
+    right: calc(78% - 1170px);
     background: var(--color-blue);
     width: 68px;
     height: 68px;
@@ -1497,11 +1497,6 @@ img {
     margin: 10px 0;
 }
 
-.about-us .main-agency__network {
-    right: 50px;
-    top: 5%;
-}
-
 /* Team **********************
 ***************************************** */
 .team {
@@ -1546,7 +1541,7 @@ img {
 }
 
 .theme-desc__line {
-    width: 40%;
+    width: 70%;
     height: 2px;
     background-color: var(--color-blue);
     border: 0;
@@ -1573,16 +1568,13 @@ img {
     border-radius: 0 30px 30px 0;
     bottom: 25px;
     left: 0;
+    width: 0;
     opacity: 0;
-    transition: 0.4s;
-    transform: scale(0);
-    transform-origin: 0 0;
 }
 
-.team .slider-item__theme:hover .slidet-item__theme-desc {
-    opacity: 1;
+.slidet-item__theme-desc:hover {
+    width: 0;
+    opacity: 0;
     min-width: 300px;
-    transform: scale(1);
     transition: 0.4s;
-    transform-origin: -100% 50%;
 }

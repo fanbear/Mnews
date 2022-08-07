@@ -1004,7 +1004,7 @@ img {
     bottom: 0;
     left: 0;
     background: rgb(0, 0, 0, 0.2);
-    width: calc(79.5% - 1170px);
+    width: 18%;
     z-index: 1;
 }
 
@@ -1014,14 +1014,14 @@ img {
     bottom: 0;
     right: 0;
     background: rgb(0, 0, 0, 0.2);
-    width: calc(79.5% - 1170px);
+    width: 18%;
     z-index: 1;
 }
 
 .slick-prev {
     position: absolute;
     top: -105px;
-    right: calc(86% - 1170px);
+    right: 25%;
     background: var(--color-blue);
     width: 68px;
     height: 68px;
@@ -1039,7 +1039,7 @@ img {
 .slick-next {
     position: absolute;
     top: -105px;
-    right: calc(81% - 1170px);
+    right: 20%;
     background: var(--color-blue);
     width: 68px;
     height: 68px;
@@ -1497,17 +1497,12 @@ img {
     margin: 10px 0;
 }
 
-.about-us .main-agency__network {
-    right: 50px;
-    top: 5%;
-}
-
 /* Team **********************
 ***************************************** */
 .team {
     position: relative;
     margin-top: 190px;
-    padding: 60px 0 119px 0;
+    padding: 70px 0 119px 0;
     background-color: var(--color-darkgrey);
 }
 
@@ -1516,73 +1511,14 @@ img {
     color: white;
     font-weight: 800;
     position: relative;
-    z-index: 2;
-    text-transform: uppercase;
-    padding-bottom: 80px;
 }
 
 .team-title::before {
     content: "\201c";
     display: block;
     position: absolute;
-    font-size: 700px;
-    top: -240px;
+    font-size: 400px;
+    top: -100px;
     left: -50px;
-    font-weight: 300;
-    z-index: -1;
-    color: var(--color-blue);
-}
-
-.theme-desc__title {
-    color: white;
-    font-size: 25px;
-    font-weight: 800;
-}
-
-.theme-desc__job {
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.theme-desc__line {
-    width: 40%;
-    height: 2px;
-    background-color: var(--color-blue);
-    border: 0;
-    margin: 0;
-    margin-top: 7px;
-}
-
-.theme_desc__subtitle {
-    color: white;
-    font-size: 16px;
-    font-weight: 300;
-    margin-top: 10px;
-}
-
-.team .slider-item__theme {
-    position: relative;
-}
-
-.slidet-item__theme-desc {
-    position: absolute;
-    min-width: 300px;
-    background-color: var(--color-darkgrey);
-    padding: 20px;
-    border-radius: 0 30px 30px 0;
-    bottom: 25px;
-    left: 0;
-    opacity: 0;
-    transition: 0.4s;
-    transform: scale(0);
-    transform-origin: 0 0;
-}
-
-.team .slider-item__theme:hover .slidet-item__theme-desc {
-    opacity: 1;
-    min-width: 300px;
-    transform: scale(1);
-    transition: 0.4s;
-    transform-origin: -100% 50%;
+    color: var(--color-blue)
 }

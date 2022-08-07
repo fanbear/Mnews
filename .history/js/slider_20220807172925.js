@@ -70,7 +70,7 @@ $('.slider-blog').slick({
 $('.slider-team').slick({
     dots: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 6,
     slidesToScroll: 1,
     variableWidth: true,
     centerMode: true,
