@@ -460,7 +460,6 @@ header {
     text-align: center;
     line-height: 30px;
     transition: 0.4s;
-    max-width: 80%;
 }
 
 .portfolio-page__list-item span i {
@@ -491,11 +490,6 @@ header {
     transform: scale(1);
     transform-origin: -100% 50px;
     transition: 1s;
-}
-
-.portfolio-page .main-agency__network {
-    right: 24px;
-    z-index: 4;
 }
 
 /* FONTS ******************************
