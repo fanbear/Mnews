@@ -69,35 +69,31 @@ if (technology) {
 // Services page slider item  overflow
 // *******************************************
 // **********************************************
-document.addEventListener("DOMContentLoaded", () => {
-    const services = document.querySelector(".slider-services");
 
-    if (services) {
-        let servicesList = document.querySelectorAll(".slick-active");
-        const servicesPrev = document.querySelector(".slick-prev");
-        const servicesNext = document.querySelector(".slick-next");
+const services = document.querySelector(".slider-services");
 
-        function overflowite() {
-            servicesList = document.querySelectorAll(".slick-active");
+if (services) {
+    const servicesList = document.querySelectorAll(".slick-active");
+    const servicesPrev = document.querySelector(".slick-prev");
+    const servicesNext = document.querySelector(".slick-next");
 
-            servicesList.forEach((item, i) => {
-                if (i > 2) {
-                    item.classList.add("slick-opacity");
-                } else {
-                    item.classList.remove("slick-opacity");
-                }
-            })
-        }
-
-        servicesPrev.addEventListener('click', () => {
-            overflowite(servicesList);
+    function overflowite(list) {
+        list.forEach((item, i) => {
+            if (i > 3) {
+                item.classList.add("slick-opacity");
+            } else {
+                item.classList.remove("slick-opacity");
+            }
         })
-
-        servicesNext.addEventListener('click', () => {
-            overflowite(servicesList);
-        })
-
-        overflowite(servicesList);
     }
-})
+    console.log(servicesPrev);
+    servicesPrev.addEventListener('click', () => {
+        overflowite(servicesList);
+    })
 
+    servicesNext.addEventListener('click', () => {
+        overflowite(servicesList);
+    })
+
+    overflowite(servicesList);
+}

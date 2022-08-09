@@ -1628,7 +1628,7 @@ img {
     }
 
     50% {
-        -webkit-text-stroke: var(--color-blue) 1px;
+        -webkit-text-stroke: var(--color-blue) 2px;
         transform: scale(1.1);
     }
 
@@ -1666,8 +1666,4 @@ img {
 .services-why .why-item:nth-child(6)::before {
     animation: services-why-animations 6s infinite;
     animation-delay: 7s;
-}
-
-.services-brif {
-    margin-top: 194px;
 }

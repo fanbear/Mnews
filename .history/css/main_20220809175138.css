@@ -1594,8 +1594,6 @@ img {
 .services-why {
     background-color: var(--color-darkgrey);
     padding: 145px 0 100px 0;
-    position: relative;
-    z-index: -1;
 }
 
 .services-why .why {
@@ -1609,65 +1607,4 @@ img {
 
 .services-why .why-item h4 {
     color: white;
-}
-
-.services-why .why-item p {
-    color: white;
-}
-
-.services-why .why-item::before {
-    color: transparent;
-    z-index: -1;
-    -webkit-text-stroke: white 1px;
-}
-
-@keyframes services-why-animations {
-    0% {
-        -webkit-text-stroke: white 1px;
-        transform: scale(1);
-    }
-
-    50% {
-        -webkit-text-stroke: var(--color-blue) 1px;
-        transform: scale(1.1);
-    }
-
-    100% {
-        -webkit-text-stroke: white 1px;
-        transform: scale(1);
-    }
-}
-
-.services-why .why-item:nth-child(1)::before {
-    animation: services-why-animations 6s infinite;
-    animation-delay: 2s;
-}
-
-.services-why .why-item:nth-child(2)::before {
-    animation: services-why-animations 6s infinite;
-    animation-delay: 3s;
-}
-
-.services-why .why-item:nth-child(3)::before {
-    animation: services-why-animations 6s infinite;
-    animation-delay: 4s;
-}
-
-.services-why .why-item:nth-child(4)::before {
-    animation: services-why-animations 6s infinite;
-    animation-delay: 5s;
-}
-
-.services-why .why-item:nth-child(5)::before {
-    animation: services-why-animations 6s infinite;
-    animation-delay: 6s;
-}
-
-.services-why .why-item:nth-child(6)::before {
-    animation: services-why-animations 6s infinite;
-    animation-delay: 7s;
-}
-
-.services-brif {
-    margin-top: 194px;
 }

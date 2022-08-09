@@ -1624,50 +1624,13 @@ img {
 @keyframes services-why-animations {
     0% {
         -webkit-text-stroke: white 1px;
-        transform: scale(1);
     }
 
     50% {
         -webkit-text-stroke: var(--color-blue) 1px;
-        transform: scale(1.1);
     }
 
     100% {
         -webkit-text-stroke: white 1px;
-        transform: scale(1);
     }
-}
-
-.services-why .why-item:nth-child(1)::before {
-    animation: services-why-animations 6s infinite;
-    animation-delay: 2s;
-}
-
-.services-why .why-item:nth-child(2)::before {
-    animation: services-why-animations 6s infinite;
-    animation-delay: 3s;
-}
-
-.services-why .why-item:nth-child(3)::before {
-    animation: services-why-animations 6s infinite;
-    animation-delay: 4s;
-}
-
-.services-why .why-item:nth-child(4)::before {
-    animation: services-why-animations 6s infinite;
-    animation-delay: 5s;
-}
-
-.services-why .why-item:nth-child(5)::before {
-    animation: services-why-animations 6s infinite;
-    animation-delay: 6s;
-}
-
-.services-why .why-item:nth-child(6)::before {
-    animation: services-why-animations 6s infinite;
-    animation-delay: 7s;
-}
-
-.services-brif {
-    margin-top: 194px;
 }

@@ -73,22 +73,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const services = document.querySelector(".slider-services");
 
     if (services) {
-        let servicesList = document.querySelectorAll(".slick-active");
+        const servicesList = document.querySelectorAll(".slick-active");
         const servicesPrev = document.querySelector(".slick-prev");
         const servicesNext = document.querySelector(".slick-next");
 
-        function overflowite() {
-            servicesList = document.querySelectorAll(".slick-active");
-
-            servicesList.forEach((item, i) => {
-                if (i > 2) {
+        function overflowite(list) {
+            list.forEach((item, i) => {
+                if (i > 3) {
                     item.classList.add("slick-opacity");
                 } else {
                     item.classList.remove("slick-opacity");
                 }
             })
         }
-
+        console.log(servicesPrev);
         servicesPrev.addEventListener('click', () => {
             overflowite(servicesList);
         })

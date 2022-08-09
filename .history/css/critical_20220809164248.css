@@ -603,23 +603,18 @@ header {
     top: -45px;
 }
 
-.services-page .slick-active {
-    opacity: 1;
-    transition: 1s;
-}
-
 .services-page .slick-opacity {
-    opacity: 0.5;
+    opacity: 0.4;
     animation: services-slider-item-animation 1s ease-in-out;
 }
 
 @keyframes services-slider-item-animation {
     0% {
-        opacity: 1;
+        opacity: 0.4;
     }
 
     100% {
-        opacity: 0.5;
+        opacity: 1;
     }
 }
 

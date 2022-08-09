@@ -564,7 +564,7 @@ header {
     font-size: 35px;
     position: absolute;
     left: 15px;
-    top: calc(55%);
+    top: calc(55% - 15px);
     margin-top: 10px;
 }
 
@@ -601,26 +601,6 @@ header {
 .services-page .main-agency__network {
     right: 25px;
     top: -45px;
-}
-
-.services-page .slick-active {
-    opacity: 1;
-    transition: 1s;
-}
-
-.services-page .slick-opacity {
-    opacity: 0.5;
-    animation: services-slider-item-animation 1s ease-in-out;
-}
-
-@keyframes services-slider-item-animation {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0.5;
-    }
 }
 
 /* FONTS ******************************

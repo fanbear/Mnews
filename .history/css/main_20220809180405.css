@@ -1624,17 +1624,17 @@ img {
 @keyframes services-why-animations {
     0% {
         -webkit-text-stroke: white 1px;
-        transform: scale(1);
+        transform: scale(0);
     }
 
     50% {
         -webkit-text-stroke: var(--color-blue) 1px;
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
 
     100% {
         -webkit-text-stroke: white 1px;
-        transform: scale(1);
+        transform: scale(0);
     }
 }
 
@@ -1666,8 +1666,4 @@ img {
 .services-why .why-item:nth-child(6)::before {
     animation: services-why-animations 6s infinite;
     animation-delay: 7s;
-}
-
-.services-brif {
-    margin-top: 194px;
 }

@@ -105,7 +105,7 @@ $('.slider-team').slick({
 $('.slider-services').slick({
     dots: false,
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: 3,
     slidesToScroll: 1,
     variableWidth: true,
     prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",

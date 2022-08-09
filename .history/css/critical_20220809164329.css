@@ -609,7 +609,7 @@ header {
 }
 
 .services-page .slick-opacity {
-    opacity: 0.5;
+    opacity: 0.4;
     animation: services-slider-item-animation 1s ease-in-out;
 }
 
@@ -619,7 +619,7 @@ header {
     }
 
     100% {
-        opacity: 0.5;
+        opacity: 0.4;
     }
 }
 
