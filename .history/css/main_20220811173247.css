@@ -1788,7 +1788,6 @@ img {
     transition: 0.4s;
 }
 
-
 .casey-grid__item-title:hover {
     color: var(--color-blue);
     transition: 0.4s;
@@ -1804,68 +1803,4 @@ img {
     font-size: 25px;
     font-weight: 600;
     margin-top: 15px;
-    display: flex;
-    transition: 0.4s;
-}
-
-.casey-grid__item-link:hover {
-    color: var(--color-blue);
-    transition: 0.4s;
-}
-
-.casey-grid__wrapper-first {
-    display: grid;
-    grid-template-columns: 55% 42%;
-    gap: 30px;
-    margin-top: 30px;
-}
-
-.casey-grid__wrapper-two {
-    display: grid;
-    grid-template-columns: 42% 55%;
-    gap: 30px;
-    margin-top: 30px;
-}
-
-.casey-grid__item-big {
-    height: fit-content;
-}
-
-.casey-grid__wrapper-first .casey-grid__item-big:nth-child(n+2) {
-    margin-top: -80px;
-}
-
-.casey-grid__item-small {
-    height: fit-content;
-}
-
-.casey-grid__wrapper-two .casey-grid__item-small:nth-child(1) {
-    margin-top: -180px;
-}
-
-.casey-grid__wrapper-two .casey-grid__item-small:nth-child(n+2) {
-    margin-top: -100px;
-}
-
-.casey-grid__button {
-    margin-top: 106px;
-    display: flex;
-    justify-content: center;
-}
-
-.casey-grid__button button {
-    font-size: 37px;
-    color: white;
-    font-weight: 600;
-    background-color: var(--color-darkgrey);
-    padding: 20px 39px;
-    border-radius: 32px;
-    cursor: pointer;
-    transition: 0.4s;
-    border: 0;
-}
-
-.casey-grid__button button:hover {
-    background-color: var(--color-blue);
-    transition: 0.4s;
 }

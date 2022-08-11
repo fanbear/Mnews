@@ -757,20 +757,7 @@ header {
 
 .casey-page .main-agency__network {
     right: 25px;
-    top: 0;
-}
-
-.casey-page .main-agency__network .fa-youtube {
-    color: var(--color-blue);
-}
-
-.casey-description {
-    margin-top: 78px;
-}
-
-.casey-description p {
-    font-size: 25px;
-    font-weight: 500;
+    top: 100px;
 }
 
 /* FONTS ******************************

@@ -1849,8 +1849,6 @@ img {
 
 .casey-grid__button {
     margin-top: 106px;
-    display: flex;
-    justify-content: center;
 }
 
 .casey-grid__button button {
@@ -1860,12 +1858,4 @@ img {
     background-color: var(--color-darkgrey);
     padding: 20px 39px;
     border-radius: 32px;
-    cursor: pointer;
-    transition: 0.4s;
-    border: 0;
-}
-
-.casey-grid__button button:hover {
-    background-color: var(--color-blue);
-    transition: 0.4s;
 }

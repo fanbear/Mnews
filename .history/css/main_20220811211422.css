@@ -1862,7 +1862,6 @@ img {
     border-radius: 32px;
     cursor: pointer;
     transition: 0.4s;
-    border: 0;
 }
 
 .casey-grid__button button:hover {
