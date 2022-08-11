@@ -630,94 +630,14 @@ header {
 .request-page {
     background-color: var(--color-blue);
     margin-top: 122px;
-    min-height: 610px;
 }
 
 .request-page__wrapper {
     position: relative;
-    min-height: 610px;
 }
 
 .request-page__circle {
-    margin-top: -122px;
-    position: absolute;
-    left: 0;
-}
-
-.request-page__title {
-    position: absolute;
-    z-index: 1;
-}
-
-.request-page__title p {
-    color: white;
-    font-size: var(--big-text-size);
-    font-weight: 800;
-    padding-left: 160px;
-    max-width: 80%;
-    line-height: var(--big-text-size);
-}
-
-.request-page__title span {
-    color: white;
-    font-weight: 500;
-    font-size: 25px;
-    margin-top: 22px;
-    padding-left: 160px;
-}
-
-.request-page__callback {
-    background-color: var(--color-darkgrey);
-    position: absolute;
-    right: -40px;
-    width: 280px;
-    height: 180px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    bottom: 77px;
-    border-radius: 30px;
-}
-
-.request-page__callback p {
-    color: white;
-    font-size: 25px;
-    font-weight: 800;
-    margin-top: 17px;
-    text-align: center;
-}
-
-.request-page__callback span {
-    color: white;
-    font-size: 20px;
-    font-weight: 800;
-    margin-top: 10px;
-    width: 100%;
-    text-align: center;
-}
-
-.request-page__callback button {
-    margin-top: 15px;
-    background-color: var(--color-blue);
-    border: 0;
-    border-radius: 25px;
-    color: white;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 800;
-    width: 220px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-    cursor: pointer;
-}
-
-.request-page__callback button:hover {
-    background-color: transparent;
-    border: 1px solid var(--color-blue);
-    transition: 0.4s;
+    margin-top: -60px;
 }
 
 /* FONTS ******************************

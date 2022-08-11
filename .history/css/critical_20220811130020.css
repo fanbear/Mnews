@@ -669,14 +669,13 @@ header {
 .request-page__callback {
     background-color: var(--color-darkgrey);
     position: absolute;
-    right: -40px;
+    right: -15px;
     width: 280px;
     height: 180px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     bottom: 77px;
-    border-radius: 30px;
 }
 
 .request-page__callback p {
@@ -710,14 +709,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.4s;
-    cursor: pointer;
-}
-
-.request-page__callback button:hover {
-    background-color: transparent;
-    border: 1px solid var(--color-blue);
-    transition: 0.4s;
 }
 
 /* FONTS ******************************

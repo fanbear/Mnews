@@ -1688,7 +1688,7 @@ img {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 65px;
 }
 
 .request-form__item .request-form__item-title {
@@ -1763,7 +1763,6 @@ img {
     border-radius: 35px;
     cursor: pointer;
     transition: 0.4s;
-    border: 0;
 }
 
 .request-form__wrapper button:hover {
