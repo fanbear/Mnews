@@ -787,45 +787,12 @@ header {
     font-size: var(--big-text-size);
     font-weight: 800;
     line-height: 83px;
-    margin-top: 68px;
-    margin-bottom: 86px;
-    position: relative;
-    z-index: 4;
-    max-width: 95%;
 }
 
 .case-page__subtitle {
     font-size: 25px;
     font-weight: 500;
-    margin-top: -43px;
-    color: var(--color-blue);
-}
-
-.case-page__wrapper {
-    position: relative;
-}
-
-.case-page-img {
-    position: absolute;
-    top: -136px;
-    right: 0;
-    width: auto;
-    z-index: 3;
-}
-
-.case-page .overtext {
-    justify-content: flex-start;
-    z-index: 2;
-    left: -100px;
-}
-
-.case-page .overtext span {
-    -webkit-text-stroke: 2px var(--color-darkgrey);
-}
-
-.case-page .main-agency__network {
-    top: -40px;
-    right: 25px;
+    margin-top: -80px;
 }
 
 /* FONTS ******************************

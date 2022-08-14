@@ -2023,7 +2023,8 @@ img {
     font-size: 30px;
     font-weight: 600;
     transition: 0.4s;
-    width: 100%;
+    display: flex;
+    align-items: flex-start;
 }
 
 .slider-case .slider-item__link:hover {
@@ -2031,23 +2032,9 @@ img {
     transition: 0.4s;
 }
 
-.slider-case .slider-item__theme {
-    justify-content: flex-start;
-}
-
 .slider-case .slider-item_desc {
     color: var(--color-darkgrey);
     font-size: 20px;
     font-weight: 500;
     margin-top: 12px;
-}
-
-.case-slider .slider-overlay__left,
-.case-slider .slider-overlay__right {
-    background: rgb(255, 255, 255, 0.6)
-}
-
-.case-slider .slick-prev,
-.case-slider .slick-next {
-    top: -160px;
 }

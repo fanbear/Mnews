@@ -2042,12 +2042,6 @@ img {
     margin-top: 12px;
 }
 
-.case-slider .slider-overlay__left,
-.case-slider .slider-overlay__right {
+.case-slider .slider-overlay__left {
     background: rgb(255, 255, 255, 0.6)
-}
-
-.case-slider .slick-prev,
-.case-slider .slick-next {
-    top: -160px;
 }
