@@ -533,7 +533,7 @@ header {
 }
 
 .slider-services .slick-track {
-    margin-left: 0 !important;
+    margin-left: 0;
 }
 
 .slider-services .slider-item__theme {

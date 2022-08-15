@@ -532,11 +532,7 @@ header {
     margin-top: 14px;
 }
 
-.slider-services .slick-track {
-    margin-left: 0 !important;
-}
-
-.slider-services .slider-item__theme {
+.services-page .slider-item__theme {
     min-height: 267px;
     width: 266px;
     background-color: var(--color-darkgrey);
