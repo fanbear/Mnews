@@ -50,6 +50,7 @@ if (technology) {
     const tList = technology.querySelectorAll('.technology-item');
 
     tList.forEach((item, i) => {
+        console.log(item);
         item.animate([
             { transform: 'scale(0)' },
             { transform: 'scale(1)' },
@@ -101,4 +102,16 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 
+// Slider calculate sideShdow
+// *************************************
+// *************************************
+
+document.addEventListener("DOMContentLoaded", () => {
+    const slider = document.querySelector('.slider-wrapper');
+    const container = document.querySelector('.container');
+
+    if (slider) {
+        console.log(container.style.marginLeft);
+    }
+})
 

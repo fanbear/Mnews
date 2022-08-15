@@ -101,4 +101,17 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 
+// Slider calculate sideShdow
+// *************************************
+// *************************************
+
+document.addEventListener("DOMContentLoaded", () => {
+    const slider = document.querySelector('.slider-wrapper');
+    const container = document.querySelector('.container');
+    const style = window.getComputedStyle(container);
+
+    if (slider) {
+        console.log(style.margin);
+    }
+})
 

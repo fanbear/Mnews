@@ -872,13 +872,12 @@ header {
     justify-content: flex-start;
     z-index: 2;
     left: -10px;
-    height: 16vw;
+    height: 14.5vw;
 }
 
 .reviews-page .overtext span {
     -webkit-text-stroke: 2px var(--color-darkgrey);
-    font-size: 17.5vw;
-    letter-spacing: 25px;
+    font-size: 15vw;
 }
 
 .reviews-page .main-agency__network {

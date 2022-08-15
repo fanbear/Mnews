@@ -877,7 +877,7 @@ header {
 
 .reviews-page .overtext span {
     -webkit-text-stroke: 2px var(--color-darkgrey);
-    font-size: 17.5vw;
+    font-size: 16vw;
     letter-spacing: 25px;
 }
 
