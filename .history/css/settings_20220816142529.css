@@ -1,0 +1,20 @@
+:root {
+    /* color */
+    --main-text-color: #3a3a3a;
+    --color-darkgrey: #3a3a3a;
+    --color-blue: #4285f4;
+    /* font-size */
+    --minimal-text-size: 29px;
+    --standart-text-size: 33px;
+    --medium-text-size: 63px;
+    --big-text-size: 83px;
+}
+
+@media screen and (max-width: 1200px) {
+    :root {
+        --minimal-text-size: 24px;
+        --standart-text-size: 28px;
+        --medium-text-size: 50px;
+        --big-text-size: 70px;
+    }
+}
