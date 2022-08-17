@@ -975,10 +975,6 @@ header {
     .portfolio-page {
         margin-bottom: 60px;
     }
-
-    .portfolio-page .main-agency__network {
-        right: 10px;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {

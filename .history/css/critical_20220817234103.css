@@ -923,7 +923,7 @@ header {
     }
 }
 
-@media (min-width: 320px) and (max-width: 767.98px) {
+@media (min-width: 320px) and (max-width: 767.99px) {
     .portfolio-page__list {
         width: 100%;
         justify-content: center;
@@ -975,15 +975,15 @@ header {
     .portfolio-page {
         margin-bottom: 60px;
     }
-
-    .portfolio-page .main-agency__network {
-        right: 10px;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .portfolio-page__list {
         width: 100%;
+    }
+
+    .portfolio-page .telegram {
+        margin-top: 60px;
     }
 
     .portfolio-page {

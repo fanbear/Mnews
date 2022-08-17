@@ -923,7 +923,7 @@ header {
     }
 }
 
-@media (min-width: 320px) and (max-width: 767.98px) {
+@media (min-width: 320px) and (max-width: 767.99px) {
     .portfolio-page__list {
         width: 100%;
         justify-content: center;
@@ -968,27 +968,9 @@ header {
         width: 100%;
     }
 
-    .portfolio-page__list-item a {
-        font-size: 16px;
-    }
-
-    .portfolio-page {
-        margin-bottom: 60px;
-    }
-
-    .portfolio-page .main-agency__network {
-        right: 10px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .portfolio-page__list {
-        width: 100%;
-    }
-
-    .portfolio-page {
-        margin-bottom: 60px;
-    }
+    /* .portfolio-page__list-item {
+        width: calc(100% / 2 - 28px);
+    } */
 }
 
 @font-face {
