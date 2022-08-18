@@ -2998,17 +2998,16 @@ img {
 
     .slider-team .slick-prev {
         top: auto;
-        bottom: -122px;
-        left: calc(50% - 88px);
+        bottom: -100px;
+        left: calc(50% - 68px);
     }
 
     .slider-team .slick-next {
-        bottom: -122px;
-        right: calc(50% - 88px);
-        top: auto;
+        bottom: -100px;
+        right: calc(50% - 68px);
     }
 
     .team {
-        padding-bottom: 200px;
+        padding-bottom: 180px;
     }
 }

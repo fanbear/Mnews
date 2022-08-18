@@ -2991,24 +2991,4 @@ img {
     .slider-team .slick-track {
         margin: 0 !important;
     }
-
-    .team-title {
-        padding-bottom: 0;
-    }
-
-    .slider-team .slick-prev {
-        top: auto;
-        bottom: -122px;
-        left: calc(50% - 88px);
-    }
-
-    .slider-team .slick-next {
-        bottom: -122px;
-        right: calc(50% - 88px);
-        top: auto;
-    }
-
-    .team {
-        padding-bottom: 200px;
-    }
 }

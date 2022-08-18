@@ -992,7 +992,7 @@ header {
 
     .about-us .main-agency__network {
         right: 10px !important;
-        top: 15px !important;
+        top: 0 !important;
     }
 
     .about-us .overtext {

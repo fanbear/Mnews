@@ -977,7 +977,7 @@ header {
     }
 
     .about-us__title {
-        margin-bottom: 300px;
+        margin-bottom: 250px;
     }
 
     .about-us__title p {
@@ -991,16 +991,8 @@ header {
     }
 
     .about-us .main-agency__network {
-        right: 10px !important;
-        top: 15px !important;
-    }
-
-    .about-us .overtext {
-        display: none;
-    }
-
-    .about-us {
-        margin-top: 0;
+        right: 10px;
+        top: -40px;
     }
 }
 

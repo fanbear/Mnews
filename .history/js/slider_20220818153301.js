@@ -76,6 +76,7 @@ $('.slider-team').slick({
                 infinite: true,
                 dots: false,
                 variableWidth: false,
+                centerMode: false,
             }
         },
         {

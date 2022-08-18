@@ -14,17 +14,17 @@
     :root {
         --minimal-text-size: 24px;
         --standart-text-size: 28px;
-        --medium-text-size: 48px;
-        --big-text-size: 68px;
+        --medium-text-size: 50px;
+        --big-text-size: 70px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     :root {
-        --minimal-text-size: 19px;
-        --standart-text-size: 23px;
+        --minimal-text-size: 18px;
+        --standart-text-size: 24px;
         --medium-text-size: 40px;
-        --big-text-size: 50px;
+        --big-text-size: 60px;
     }
 }
 
