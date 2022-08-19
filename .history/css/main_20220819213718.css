@@ -2750,7 +2750,7 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 20px 20px;
+        padding: 25px 30px;
     }
 
     .brif-title {
@@ -3033,16 +3033,10 @@ img {
 
     .case-work__wrapper {
         top: 60px;
-        padding: 35px 25px;
-    }
-
-    .case-work__title {
-        text-transform: uppercase;
-        font-size: 54px;
     }
 
     .case-result {
-        padding-top: 400px;
+        padding-top: 480px;
     }
 
     .case-result__title {
@@ -3055,31 +3049,10 @@ img {
     }
 
     .case-slider .slider-item__theme {
-        padding-bottom: 150px;
+        padding-bottom: 250px;
     }
 
     .case-slider .slick-prev {
         bottom: 0;
-        top: auto;
-        left: calc(50% - 80px);
-
-    }
-
-    .case-slider .slick-next {
-        bottom: 0;
-        top: auto;
-        right: calc(50% - 80px);
-    }
-
-    .services-brif {
-        margin-top: 60px;
-    }
-
-    .services-brif .brif-wrapper {
-        padding: 15px;
-    }
-
-    .case-services__item {
-        padding: 45px 30px;
     }
 }

@@ -12,7 +12,7 @@ html, body {
 
 @media screen and (min-width: 320px) and (max-width: 767.98px) {
     .container {
-        width: calc(100% - 15%);
+        max-width: 360px;
     }
 }
 
@@ -989,51 +989,6 @@ header {
     .about-us {
         margin-top: 0;
     }
-
-    .case-page {
-        margin-top: 256px;
-    }
-
-    .case-page-img {
-        top: -200px;
-        left: 0;
-    }
-
-    .case-page-img img {
-        width: 75vw;
-        height: auto;
-    }
-
-    .case-page__subtitle {
-        position: absolute;
-        top: -200px;
-        font-size: 27px;
-    }
-
-    .case-page__title {
-        width: 100%;
-        line-height: 45px;
-        margin-top: 114px;
-        margin-right: 0;
-    }
-
-    .case-page .overtext {
-        left: 0;
-        height: auto;
-        bottom: -25px;
-    }
-
-    .case-page .overtext span {
-        font-size: 122px;
-    }
-
-    .case-page .main-agency__network {
-        top: -210px;
-    }
-
-    .case-page .main-agency__network a i {
-        color: var(--color-darkgrey);
-    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1074,7 +1029,7 @@ header {
     .case-page-img {
         display: flex;
         justify-content: center;
-        top: -40px;
+        top: -25px;
         right: -70px;
     }
 
@@ -1085,14 +1040,6 @@ header {
 
     .case-page .overtext {
         left: 0;
-    }
-
-    .case-page__title {
-        line-height: 1;
-    }
-
-    .case-page .main-agency__network {
-        z-index: 4;
     }
 }
 

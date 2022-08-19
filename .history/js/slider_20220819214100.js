@@ -141,11 +141,11 @@ $('.slider-case').slick({
                 slidesToScroll: 1,
                 infinite: true,
                 dots: false,
-                variableWidth: false,
+                variableWidth: true,
             }
         },
         {
-            breakpoint: 739,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
