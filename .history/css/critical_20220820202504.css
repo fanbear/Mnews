@@ -1096,11 +1096,6 @@ header {
     .request-page__title br {
         display: none;
     }
-
-    .request-page__title span {
-        padding: 0;
-    }
-
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {

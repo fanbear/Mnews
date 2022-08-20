@@ -2315,14 +2315,6 @@ img {
     .footer-promo__raiting img {
         height: 60px;
     }
-
-    .request-form__wrapper {
-        margin-left: 0;
-    }
-
-    .footer-contact__phone a {
-        font-size: 40;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -2635,7 +2627,7 @@ img {
     }
 
     .request-form__wrapper {
-        margin-left: 0;
+        left: auto;
     }
 }
 
@@ -3149,10 +3141,5 @@ img {
 
     .casey-grid__button {
         margin-top: 60px;
-    }
-
-    .request-form__wrapper {
-        margin-left: 0;
-        margin-top: -120px;
     }
 }
