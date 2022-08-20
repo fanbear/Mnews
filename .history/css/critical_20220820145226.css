@@ -1036,40 +1036,12 @@ header {
     }
 
     .casey-page__wrapper-img img {
-        width: 300px;
+        width: 270px;
         height: auto;
-        margin: 0;
     }
 
     .casey-page__wrapper-img {
         justify-content: flex-start;
-        display: flex;
-    }
-
-    .casey-page {
-        margin-top: 40px;
-    }
-
-    .casey-page__subtitle {
-        margin-top: 15px;
-    }
-
-    .casey-page__title {
-        text-transform: uppercase;
-        font-size: 54px;
-        margin-bottom: 80px;
-    }
-
-    .casey-page .overtext {
-        height: auto;
-    }
-
-    .casey-page .overtext span {
-        font-size: 122px;
-    }
-
-    .casey-description {
-        margin-top: 40px;
     }
 }
 

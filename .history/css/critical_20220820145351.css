@@ -1047,29 +1047,7 @@ header {
     }
 
     .casey-page {
-        margin-top: 40px;
-    }
-
-    .casey-page__subtitle {
-        margin-top: 15px;
-    }
-
-    .casey-page__title {
-        text-transform: uppercase;
-        font-size: 54px;
-        margin-bottom: 80px;
-    }
-
-    .casey-page .overtext {
-        height: auto;
-    }
-
-    .casey-page .overtext span {
-        font-size: 122px;
-    }
-
-    .casey-description {
-        margin-top: 40px;
+        margin-top: 25px;
     }
 }
 

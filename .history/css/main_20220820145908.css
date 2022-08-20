@@ -3116,8 +3116,7 @@ img {
         padding: 45px 30px;
     }
 
-    .casey-grid__wrapper-first,
-    .casey-grid__wrapper-two {
+    .casey-grid__wrapper-first {
         grid-template-columns: 100%;
     }
 
@@ -3133,9 +3132,5 @@ img {
 
     .casey-grid__wrapper-two .casey-grid__item-small:nth-child(1) {
         margin: 0;
-    }
-
-    .casey-grid__button {
-        margin-top: 60px;
     }
 }
