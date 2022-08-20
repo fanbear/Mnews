@@ -98,7 +98,7 @@ $('.slider-services').slick({
     variableWidth: true,
     prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
     nextArrow: "<button type='button' class='slick-next pull-left'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
-    rresponsive: [
+    responsive: [
         {
             breakpoint: 1024,
             settings: {
@@ -106,6 +106,7 @@ $('.slider-services').slick({
                 slidesToScroll: 1,
                 infinite: true,
                 dots: false,
+                variableWidth: false,
             }
         },
         {
@@ -115,17 +116,7 @@ $('.slider-services').slick({
                 slidesToScroll: 1,
                 infinite: true,
                 dots: false,
-
-            }
-        },
-        {
-            breakpoint: 320,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: false,
-
+                variableWidth: false,
             }
         },
     ]

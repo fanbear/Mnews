@@ -1111,51 +1111,12 @@ header {
     }
 
     .slider-services .slick-prev {
-        right: 100px;
-        top: -80px;
+        right: 200px;
     }
 
     .slider-services .slick-next {
-        right: 10px;
-        top: -80px;
+        right: 50px;
     }
-
-    .request-form__wrapper {
-        margin-left: -10px;
-        margin-top: -120px;
-    }
-
-    .slider-services .slider-item__theme {
-        width: 166px;
-        min-height: 166px;
-        height: 166px;
-    }
-
-    .slider-services .slider-item__theme {
-        padding: 0;
-    }
-
-    .slider-services {
-        margin-left: -10px;
-        margin-top: 80px;
-    }
-
-    .services-page .slider-item__theme a {
-        font-size: 15px;
-    }
-
-    .services-page .slider-item__theme i {
-        font-size: 18px;
-    }
-
-    .services-page .overtext span {
-        font-size: 21.5vw;
-    }
-
-    .services-page .overtext {
-        height: auto;
-    }
-
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {

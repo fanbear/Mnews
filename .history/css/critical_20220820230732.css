@@ -1112,12 +1112,12 @@ header {
 
     .slider-services .slick-prev {
         right: 100px;
-        top: -80px;
+        top: 80px;
     }
 
     .slider-services .slick-next {
         right: 10px;
-        top: -80px;
+        top: 80px;
     }
 
     .request-form__wrapper {
@@ -1136,7 +1136,7 @@ header {
     }
 
     .slider-services {
-        margin-left: -10px;
+        margin-left: 0;
         margin-top: 80px;
     }
 
@@ -1147,15 +1147,6 @@ header {
     .services-page .slider-item__theme i {
         font-size: 18px;
     }
-
-    .services-page .overtext span {
-        font-size: 21.5vw;
-    }
-
-    .services-page .overtext {
-        height: auto;
-    }
-
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {

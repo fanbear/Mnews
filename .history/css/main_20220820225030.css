@@ -2651,10 +2651,13 @@ img {
         right: 100px;
     }
 
+    .services-page .slider-item__theme a {
+        font-size: 35px;
+    }
 
     .services-page .slider-item__theme i {
         left: 40px;
-        margin-top: 30px;
+        top: 25px;
     }
 }
 
@@ -3170,15 +3173,8 @@ img {
         margin-top: 60px;
     }
 
-    .services-why {
-        padding-top: 70px;
-    }
-
-    .trusted-title {
-        font-size: 54px;
-    }
-
-    .trusted-more a {
-        font-size: 35px;
+    .request-form__wrapper {
+        margin-left: 0;
+        margin-top: -120px;
     }
 }

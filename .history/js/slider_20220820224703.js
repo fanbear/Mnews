@@ -118,16 +118,6 @@ $('.slider-services').slick({
 
             }
         },
-        {
-            breakpoint: 320,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: false,
-
-            }
-        },
     ]
 });
 $('.slider-case').slick({
