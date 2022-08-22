@@ -3206,13 +3206,4 @@ img {
         right: calc(50% - 80px);
         top: auto;
     }
-
-    .reviews-title {
-        width: 100%;
-        font-size: 80px;
-    }
-
-    .reviews-list__wrapper {
-        grid-template-columns: 100%
-    }
 }

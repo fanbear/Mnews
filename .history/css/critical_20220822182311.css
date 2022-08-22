@@ -1168,7 +1168,7 @@ header {
     }
 
     .reviews-page__title {
-        font-size: 85px;
+        font-size: 80px;
         line-height: 1;
         margin-bottom: 300px;
     }
@@ -1179,16 +1179,11 @@ header {
 
     .reviews-page .main-agency__network {
         z-index: 5;
-        top: 100px;
-
+        top: 25px;
     }
 
     .main-agency__network a i {
         font-size: 30px;
-    }
-
-    .reviews-page {
-        margin-top: 80px;
     }
 }
 

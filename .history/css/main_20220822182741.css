@@ -3197,22 +3197,13 @@ img {
 
     .reviews-page__slider .slick-prev {
         bottom: -100px;
-        left: calc(50% - 80px);
+        left: calc(50% - 100px);
         top: auto;
     }
 
     .reviews-page__slider .slick-next {
         bottom: -100px;
-        right: calc(50% - 80px);
+        right: calc(50% - 100px);
         top: auto;
-    }
-
-    .reviews-title {
-        width: 100%;
-        font-size: 80px;
-    }
-
-    .reviews-list__wrapper {
-        grid-template-columns: 100%
     }
 }

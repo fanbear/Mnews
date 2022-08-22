@@ -3211,8 +3211,4 @@ img {
         width: 100%;
         font-size: 80px;
     }
-
-    .reviews-list__wrapper {
-        grid-template-columns: 100%
-    }
 }

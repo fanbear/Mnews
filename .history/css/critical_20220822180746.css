@@ -1153,43 +1153,6 @@ header {
         height: auto;
     }
 
-    .reviews-page-img img {
-        width: fit-content;
-        height: auto;
-    }
-
-    .reviews-page-img {
-        top: 180px;
-    }
-
-    .reviews-page__subtitle {
-        font-size: 23px;
-        color: var(--color-darkgrey);
-    }
-
-    .reviews-page__title {
-        font-size: 85px;
-        line-height: 1;
-        margin-bottom: 300px;
-    }
-
-    .reviews-page .overtext {
-        display: none;
-    }
-
-    .reviews-page .main-agency__network {
-        z-index: 5;
-        top: 100px;
-
-    }
-
-    .main-agency__network a i {
-        font-size: 30px;
-    }
-
-    .reviews-page {
-        margin-top: 80px;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {

@@ -3203,16 +3203,7 @@ img {
 
     .reviews-page__slider .slick-next {
         bottom: -100px;
-        right: calc(50% - 80px);
+        right: calc(50% - 40px);
         top: auto;
-    }
-
-    .reviews-title {
-        width: 100%;
-        font-size: 80px;
-    }
-
-    .reviews-list__wrapper {
-        grid-template-columns: 100%
     }
 }

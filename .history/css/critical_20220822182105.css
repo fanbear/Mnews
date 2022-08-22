@@ -1168,27 +1168,13 @@ header {
     }
 
     .reviews-page__title {
-        font-size: 85px;
+        font-size: 80px;
         line-height: 1;
-        margin-bottom: 300px;
+        margin-bottom: 200px;
     }
 
     .reviews-page .overtext {
-        display: none;
-    }
-
-    .reviews-page .main-agency__network {
         z-index: 5;
-        top: 100px;
-
-    }
-
-    .main-agency__network a i {
-        font-size: 30px;
-    }
-
-    .reviews-page {
-        margin-top: 80px;
     }
 }
 

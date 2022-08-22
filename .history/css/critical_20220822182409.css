@@ -1179,16 +1179,12 @@ header {
 
     .reviews-page .main-agency__network {
         z-index: 5;
-        top: 100px;
+        top: 85px;
 
     }
 
     .main-agency__network a i {
         font-size: 30px;
-    }
-
-    .reviews-page {
-        margin-top: 80px;
     }
 }
 
