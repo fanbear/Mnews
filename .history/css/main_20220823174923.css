@@ -3013,8 +3013,8 @@ img {
         margin-bottom: 60px;
     }
 
-    .blog-tab .item-body__text {
-        width: 100%;
+    .blog-tab .tab__item-active .item-body__text {
+        max-width: 100%;
     }
 
     .brif-wrapper {
@@ -3039,7 +3039,7 @@ img {
     }
 
     .footer-contact__title {
-        font-size: 16vw;
+        font-size: 63px;
     }
 
     .footer-contact__phone a {

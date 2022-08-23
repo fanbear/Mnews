@@ -47,7 +47,7 @@ body {
 
 /* Header style **********************
 ***************************************/
-.header {
+header {
     height: 90px;
     display: flex;
     justify-content: center;
@@ -68,12 +68,12 @@ body {
 .header-active {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .header-menu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .header-language {
@@ -1185,10 +1185,6 @@ body {
 
     .reviews-page {
         margin-top: 80px;
-    }
-
-    .main-agency__name {
-        margin-top: 130px;
     }
 }
 

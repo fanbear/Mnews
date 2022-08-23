@@ -3013,10 +3013,6 @@ img {
         margin-bottom: 60px;
     }
 
-    .blog-tab .item-body__text {
-        width: 100%;
-    }
-
     .brif-wrapper {
         border-radius: 30px;
     }
@@ -3039,7 +3035,7 @@ img {
     }
 
     .footer-contact__title {
-        font-size: 16vw;
+        font-size: 63px;
     }
 
     .footer-contact__phone a {

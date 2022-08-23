@@ -30,8 +30,8 @@
 
 @media (min-width: 320px) and (max-width: 767.99px) {
     :root {
-        --minimal-text-size: 14px;
-        --standart-text-size: 20px;
+        --minimal-text-size: 15px;
+        --standart-text-size: 24px;
         --medium-text-size: 34px;
         --big-text-size: 38px;
     }

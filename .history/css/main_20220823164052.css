@@ -2808,7 +2808,7 @@ img {
     }
 
     .portfolio-wrapper__item-services {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .portfolio-wrapper__item-title {
@@ -2999,22 +2999,14 @@ img {
         margin-bottom: 80px;
     }
 
-    .blog .slick-track {
-        margin-left: 0 !important;
-    }
-
     .tab__item-body .item-body__title {
         max-width: 80%;
         word-wrap: break-word;
-        font-size: 23px;
+        font-size: 26px;
     }
 
     .blog-tab {
         margin-bottom: 60px;
-    }
-
-    .blog-tab .item-body__text {
-        width: 100%;
     }
 
     .brif-wrapper {
@@ -3039,7 +3031,7 @@ img {
     }
 
     .footer-contact__title {
-        font-size: 16vw;
+        font-size: 63px;
     }
 
     .footer-contact__phone a {
@@ -3196,7 +3188,7 @@ img {
     }
 
     .trusted-more a {
-        font-size: 28px;
+        font-size: 35px;
     }
 
     .request-form__wrapper {
@@ -3222,7 +3214,7 @@ img {
 
     .reviews-title {
         width: 100%;
-        font-size: 64px;
+        font-size: 80px;
     }
 
     .reviews-list__wrapper {

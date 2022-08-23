@@ -3006,15 +3006,11 @@ img {
     .tab__item-body .item-body__title {
         max-width: 80%;
         word-wrap: break-word;
-        font-size: 23px;
+        font-size: 26px;
     }
 
     .blog-tab {
         margin-bottom: 60px;
-    }
-
-    .blog-tab .item-body__text {
-        width: 100%;
     }
 
     .brif-wrapper {
@@ -3039,7 +3035,7 @@ img {
     }
 
     .footer-contact__title {
-        font-size: 16vw;
+        font-size: 63px;
     }
 
     .footer-contact__phone a {
