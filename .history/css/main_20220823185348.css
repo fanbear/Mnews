@@ -3241,8 +3241,4 @@ img {
     .portfolio-wrapper {
         margin-top: 20px;
     }
-
-    .tab__item-active .tab__item-head p {
-        font-size: 52vw;
-    }
 }
