@@ -1225,10 +1225,6 @@ body {
         background-position: right;
         padding: 80px 0;
     }
-
-    .client-page .main-agency__network {
-        display: none;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {

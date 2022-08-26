@@ -3305,13 +3305,7 @@ img {
         border-right: none;
     }
 
-    .client-item:nth-last-child(-n+4) {
-        border-bottom: 1px solid var(--color-darkgrey);
-    }
-
     .client-item:nth-last-child(-n+2) {
         border-bottom: none;
     }
-
-
 }

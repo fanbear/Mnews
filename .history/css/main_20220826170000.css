@@ -96,7 +96,6 @@ img {
 
 .who-digit {
     margin-top: 142px;
-
 }
 
 .who-digit__title {
@@ -685,7 +684,6 @@ img {
 *************************************************** */
 .trusted {
     margin-top: 247px;
-    margin-bottom: 80px;
 }
 
 .trusted-title {
@@ -2163,35 +2161,8 @@ img {
     transition: 0.4s;
 }
 
-/* Clients page *************************
-******************************************
-****************************************** */
-.clients-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 90px;
-    margin-bottom: 170px;
-}
 
-.client-item {
-    border-bottom: 1px solid var(--color-darkgrey);
-    border-right: 1px solid var(--color-darkgrey);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.client-item:nth-child(4n) {
-    border-right: none;
-}
-
-.client-item:nth-last-child(-n+4) {
-    border-bottom: none;
-}
-
-/* Adaptive ***********************************
-***********************************************
-*********************************************** */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
     .agency-wrapper__img {
@@ -2688,19 +2659,6 @@ img {
     .services-page .slider-item__theme i {
         left: 40px;
         margin-top: 30px;
-    }
-
-    .client-item img {
-        width: fit-content;
-        height: auto;
-    }
-
-    .client-item {
-        padding: 20px;
-    }
-
-    .clients-wrapper {
-        margin-bottom: 80px;
     }
 }
 
@@ -3287,31 +3245,4 @@ img {
     .tab__item-active .tab__item-head p {
         font-size: 52vw;
     }
-
-    .clients-wrapper {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .client-item {
-        padding: 10px;
-    }
-
-    .client-item img {
-        width: fit-content;
-        height: auto;
-    }
-
-    .client-item:nth-child(2n) {
-        border-right: none;
-    }
-
-    .client-item:nth-last-child(-n+4) {
-        border-bottom: 1px solid var(--color-darkgrey);
-    }
-
-    .client-item:nth-last-child(-n+2) {
-        border-bottom: none;
-    }
-
-
 }

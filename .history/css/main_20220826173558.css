@@ -3291,27 +3291,4 @@ img {
     .clients-wrapper {
         grid-template-columns: 1fr 1fr;
     }
-
-    .client-item {
-        padding: 10px;
-    }
-
-    .client-item img {
-        width: fit-content;
-        height: auto;
-    }
-
-    .client-item:nth-child(2n) {
-        border-right: none;
-    }
-
-    .client-item:nth-last-child(-n+4) {
-        border-bottom: 1px solid var(--color-darkgrey);
-    }
-
-    .client-item:nth-last-child(-n+2) {
-        border-bottom: none;
-    }
-
-
 }

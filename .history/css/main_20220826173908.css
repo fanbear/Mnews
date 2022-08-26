@@ -3306,7 +3306,7 @@ img {
     }
 
     .client-item:nth-last-child(-n+4) {
-        border-bottom: 1px solid var(--color-darkgrey);
+        border: 1px solid var(--color-darkgrey);
     }
 
     .client-item:nth-last-child(-n+2) {

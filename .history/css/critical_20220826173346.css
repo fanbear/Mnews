@@ -1223,11 +1223,6 @@ body {
     .client-page {
         margin-top: 40px;
         background-position: right;
-        padding: 80px 0;
-    }
-
-    .client-page .main-agency__network {
-        display: none;
     }
 }
 

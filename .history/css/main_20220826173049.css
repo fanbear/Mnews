@@ -2701,6 +2701,7 @@ img {
 
     .clients-wrapper {
         margin-bottom: 80px;
+        ;
     }
 }
 
@@ -3287,31 +3288,4 @@ img {
     .tab__item-active .tab__item-head p {
         font-size: 52vw;
     }
-
-    .clients-wrapper {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .client-item {
-        padding: 10px;
-    }
-
-    .client-item img {
-        width: fit-content;
-        height: auto;
-    }
-
-    .client-item:nth-child(2n) {
-        border-right: none;
-    }
-
-    .client-item:nth-last-child(-n+4) {
-        border-bottom: 1px solid var(--color-darkgrey);
-    }
-
-    .client-item:nth-last-child(-n+2) {
-        border-bottom: none;
-    }
-
-
 }
