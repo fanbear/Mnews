@@ -685,7 +685,7 @@ img {
 *************************************************** */
 .trusted {
     margin-top: 247px;
-    margin-bottom: 180px;
+    margin-bottom: 80px;
 }
 
 .trusted-title {
@@ -2704,10 +2704,6 @@ img {
     .clients-wrapper {
         margin-bottom: 80px;
     }
-
-    .reviews-list {
-        margin-bottom: 80px;
-    }
 }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
@@ -3248,10 +3244,6 @@ img {
 
     .trusted-more a {
         font-size: 28px;
-    }
-
-    .reviews-list {
-        margin-bottom: 60px;
     }
 
     .request-form__wrapper {

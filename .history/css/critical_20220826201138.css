@@ -993,13 +993,8 @@ body {
         height: auto;
     }
 
-    .about-us__director {
-        left: 0;
-    }
-
     .about-us__title {
         margin-bottom: 300px;
-        margin-left: auto;
     }
 
     .about-us__title p {
