@@ -2379,8 +2379,7 @@ img {
 }
 
 .how {
-    padding-top: 166px;
-    padding-bottom: 25px;
+    padding: 166px 0 25px 0;
 }
 
 .how-title {
@@ -3865,10 +3864,6 @@ img {
         font-size: 54px;
     }
 
-    .who-bottom .who-digit__title {
-        font-size: 54px;
-    }
-
     .who-top .who-wrapper {
         grid-template-columns: 1fr;
         gap: 30px;
@@ -3889,104 +3884,9 @@ img {
 
     .service-accordion .benefits-subtitle {
         font-size: 25px;
-        margin-bottom: 0;
     }
 
     .service-accordion .item-body__title {
-        max-width: 75%;
-        font-size: 30px;
-        text-transform: uppercase;
-        padding: 35px 0;
-    }
-
-    .service-accordion .tab__item-active .item-body__title {
-        margin-left: 0;
-        font-size: 30px;
-        text-transform: none;
-        width: 100%;
-    }
-
-    .service-accordion .tab__item-active .tab__item-button,
-    .service-accordion .tab__item-button {
-        top: 10px;
-        right: 5px;
-    }
-
-    .service-accordion .tab__item-active .item-body__text {
-        margin-left: 0;
-        max-width: 100%
-    }
-
-    .service-accordion .tab__item-active .item-body__text ul,
-    .service-accordion .tab__item-active .item-body__text p {
-        font-size: 18px;
-    }
-
-    .faq-title,
-    .faq-subtitle {
-        font-size: 54px;
-        max-width: 100%;
-    }
-
-    .faq-wrapper {
-        grid-template-columns: 1fr;
-    }
-
-    .how-title {
-        font-size: 54px;
-    }
-
-    .how-wrapper__item {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .how-wrapper__item-text {
-        margin-top: 30px;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .how-wrapper__item:not(:nth-child(1)) {
-        margin-top: 30px;
-    }
-
-    .service-form__wrapper {
-        padding: 13px 15px 36px 15px;
-    }
-
-    .service-form__wrapper img {
-        max-width: 580px;
-        max-height: 580px;
-        top: -150px;
-    }
-
-    .service-form__wrapper-title {
-        font-size: 25px;
-    }
-
-    .service-form__wrapper-title br {
-        display: inline;
-    }
-
-    .reviews-slider__btn {
-        margin: 60px 0;
-    }
-
-    .reviews-slider__btn a {
-        text-transform: uppercase;
-        font-size: 25px;
-    }
-
-    .services-case__slider-btn a {
-        font-size: 25px;
-    }
-
-    .services-description_title {
-        font-size: 42px;
-    }
-
-    .service-video .reviews-title {
-        font-size: 40px;
+        max-width: 80%;
     }
 }

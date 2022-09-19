@@ -109,17 +109,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const faqList = document.querySelectorAll('.faq-wrapper__item');
 
     if (faqList) {
-        setInterval(() => {
-            faqList.forEach((item, i) => {
-                setTimeout(() => {
-                    item.classList.add('faq-wrapper__item-animation');
-                    setTimeout(() => {
-                        item.classList.remove('faq-wrapper__item-animation');
-                    }, 2000);
-                }, i * 2000)
-            })
-        }, (faqList.length * 2000))
+        faqList.forEach((item, i) => {
+            console.log(i);
+            setInterval(() => {
+                item.classList.toggle('faq-wrapper__item-animation');
 
+            }, 1000 + i * 1000)
+        })
     }
 })
 

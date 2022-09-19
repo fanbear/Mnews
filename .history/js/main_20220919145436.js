@@ -115,10 +115,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     item.classList.add('faq-wrapper__item-animation');
                     setTimeout(() => {
                         item.classList.remove('faq-wrapper__item-animation');
-                    }, 2000);
-                }, i * 2000)
+                    }, 1500);
+                }, i * 1500)
             })
-        }, (faqList.length * 2000))
+        }, (faqList.length * 1500))
 
     }
 })

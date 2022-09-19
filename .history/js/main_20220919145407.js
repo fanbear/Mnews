@@ -105,21 +105,21 @@ document.addEventListener("DOMContentLoaded", () => {
 //Service page faq animation
 // ***********************************************
 // ***********************************************
-document.addEventListener('DOMContentLoaded', () => {
-    const faqList = document.querySelectorAll('.faq-wrapper__item');
+// document.addEventListener('DOMContentLoaded', () => {
+//     const faqList = document.querySelectorAll('.faq-wrapper__item');
 
-    if (faqList) {
-        setInterval(() => {
-            faqList.forEach((item, i) => {
-                setTimeout(() => {
-                    item.classList.add('faq-wrapper__item-animation');
-                    setTimeout(() => {
-                        item.classList.remove('faq-wrapper__item-animation');
-                    }, 2000);
-                }, i * 2000)
-            })
-        }, (faqList.length * 2000))
+//     if (faqList) {
+//         setInterval(() => {
+//             faqList.forEach((item, i) => {
+//                 setTimeout(() => {
+//                     item.classList.add('faq-wrapper__item-animation');
+//                     setTimeout(() => {
+//                         item.classList.remove('faq-wrapper__item-animation');
+//                     }, 1500);
+//                 }, i * 1500)
+//             })
+//         }, (faqList.length * 1500))
 
-    }
-})
+//     }
+// })
 

@@ -3865,10 +3865,6 @@ img {
         font-size: 54px;
     }
 
-    .who-bottom .who-digit__title {
-        font-size: 54px;
-    }
-
     .who-top .who-wrapper {
         grid-template-columns: 1fr;
         gap: 30px;
@@ -3889,14 +3885,13 @@ img {
 
     .service-accordion .benefits-subtitle {
         font-size: 25px;
-        margin-bottom: 0;
     }
 
     .service-accordion .item-body__title {
         max-width: 75%;
         font-size: 30px;
         text-transform: uppercase;
-        padding: 35px 0;
+        padding: 25px 0;
     }
 
     .service-accordion .tab__item-active .item-body__title {
@@ -3952,41 +3947,11 @@ img {
     }
 
     .service-form__wrapper {
-        padding: 13px 15px 36px 15px;
+        padding: 13px 0 36px 0;
     }
 
     .service-form__wrapper img {
-        max-width: 580px;
-        max-height: 580px;
-        top: -150px;
-    }
-
-    .service-form__wrapper-title {
-        font-size: 25px;
-    }
-
-    .service-form__wrapper-title br {
-        display: inline;
-    }
-
-    .reviews-slider__btn {
-        margin: 60px 0;
-    }
-
-    .reviews-slider__btn a {
-        text-transform: uppercase;
-        font-size: 25px;
-    }
-
-    .services-case__slider-btn a {
-        font-size: 25px;
-    }
-
-    .services-description_title {
-        font-size: 42px;
-    }
-
-    .service-video .reviews-title {
-        font-size: 40px;
+        width: fit-content;
+        height: auto;
     }
 }
